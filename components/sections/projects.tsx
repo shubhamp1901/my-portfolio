@@ -16,7 +16,7 @@ const projects = [
       "Real-time chat functionality using Firebase",
       "Content sharing and course management",
     ],
-    techStack: ["ReactJS", "Firebase", "NodeJS", "ExpressJS", "MongoDB", "Redux Toolkit", "Tailwind CSS"],
+    techStack: ["ReactJS", "Firebase", "NodeJS", "ExpressJS", "MongoDB", "Redux Toolkit"],
     link: "https://app.primelive.ai/",
   },
 ]
