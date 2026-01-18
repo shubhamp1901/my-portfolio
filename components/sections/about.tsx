@@ -27,15 +27,23 @@ export function About() {
         >
           <Card className="hover:shadow-2xl transition-all duration-300 border-l-4 border-l-primary bg-gradient-to-r from-card to-card/95 backdrop-blur-sm">
             <CardContent className="pt-6">
-              <motion.p
-                className="text-lg text-foreground/90 leading-relaxed"
+              <motion.div
+                className="text-lg text-foreground/90 leading-relaxed space-y-4"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.4 }}
               >
-                Full stack developer with <span className="font-bold text-primary">3 years of experience in frontend</span> and <span className="font-bold text-primary">2 years of experience in backend</span> building scalable and performance-optimized web applications using React.js, Next.js, and Node.js. Experienced in both frontend and backend development, including state management, API integration, server-side architecture, and database design, with a track record of improving performance and user experience across the full stack.
-              </motion.p>
+                <p>
+                  I'm a <span className="font-semibold text-primary">full-stack developer</span> with <span className="font-semibold">3 years</span> of frontend experience working with <span className="font-semibold text-primary">React.js</span> and <span className="font-semibold text-primary">Next.js</span>, and <span className="font-semibold">2 years</span> building backend APIs with <span className="font-semibold text-primary">Node.js</span>.
+                </p>
+                <p>
+                  On the frontend, I work with <span className="font-semibold">state management</span>, <span className="font-semibold">API integrations</span>, and building responsive interfaces. For the backend, I build <span className="font-semibold">RESTful APIs</span>, handle <span className="font-semibold">authentication</span>, and make sure everything works together smoothly in production.
+                </p>
+                <p>
+                  I focus on making apps fast and easy to maintain, whether it's optimizing performance on the frontend, designing clean <span className="font-semibold text-primary">API structures</span> on the backend, or writing <span className="font-semibold">efficient database queries</span>. I enjoy building complete features that works well from start to finish.
+                </p>
+              </motion.div>
             </CardContent>
           </Card>
         </motion.div>
