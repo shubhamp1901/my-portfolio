@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 const experiences = [
   {
     company: "Toolbox OS",
-    position: "Frontend Developer",
+    position: "FullStack Developer",
     period: "Nov 2023 - present",
     achievements: [
       "Led frontend performance optimization by implementing route-level lazy loading and code splitting, improving initial load time by 20% and enhancing Core Web Vitals.",
