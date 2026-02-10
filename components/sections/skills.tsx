@@ -21,6 +21,7 @@ import {
   SiFirebase,
   SiCss3,
   SiPostman,
+  SiDocker,
 } from "react-icons/si"
 import { 
   Code2,
@@ -53,6 +54,7 @@ const skillIcons: Record<string, React.ReactNode> = {
   "Vite": <SiVite className="w-4 h-4" />,
   "Firebase": <SiFirebase className="w-4 h-4" />,
   "Postman": <SiPostman className="w-4 h-4" />,
+  "Docker": <SiDocker className="w-4 h-4" />,
   "TanStack Query": <Database className="w-4 h-4" />,
   "Context API": <Code2 className="w-4 h-4" />,
   "Shadcn UI": <Palette className="w-4 h-4" />,
@@ -94,6 +96,7 @@ const skillCategories = [
       "Vite",
       "Firebase",
       "Postman",
+      "Docker",
       "Web Performance",
     ],
   },

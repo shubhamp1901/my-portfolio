@@ -35,7 +35,7 @@ export function About() {
                 transition={{ duration: 0.6, delay: 0.4 }}
               >
                 <p>
-                  I'm a <span className="font-semibold text-primary">full-stack developer</span> with <span className="font-semibold">3 years</span> of frontend experience working with <span className="font-semibold text-primary">React.js</span> and <span className="font-semibold text-primary">Next.js</span>, and <span className="font-semibold">2 years</span> building backend APIs with <span className="font-semibold text-primary">Node.js</span>.
+                  I'm a <span className="font-semibold text-primary">full-stack developer</span> with <span className="font-semibold">4 years</span> of frontend experience working with <span className="font-semibold text-primary">React.js</span> and <span className="font-semibold text-primary">Next.js</span>, and <span className="font-semibold">2 years</span> building backend APIs with <span className="font-semibold text-primary">Node.js</span>.
                 </p>
                 <p>
                   On the frontend, I work with <span className="font-semibold">state management</span>, <span className="font-semibold">API integrations</span>, and building responsive interfaces. For the backend, I build <span className="font-semibold">RESTful APIs</span>, handle <span className="font-semibold">authentication</span>, and make sure everything works together smoothly in production.

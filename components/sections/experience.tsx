@@ -10,13 +10,13 @@ const experiences = [
     position: "Frontend Developer",
     period: "Nov 2023 - present",
     achievements: [
-      "Built a real-time chat feature using Firebase, enabling smooth communication between users and contributing to a 15% increase in user engagement.",
       "Led frontend performance optimization by implementing route-level lazy loading and code splitting, improving initial load time by 20% and enhancing Core Web Vitals.",
-      "Migrated legacy Django templates to modern React-based applications (Asset Management & Agreement Builder), improving UI responsiveness and reducing page load time by 25%.",
-      "Designed and implemented a public and private template marketplace, enabling domain-restricted access for organizations and public purchases for external users, using React.js, Tailwind CSS, and TanStack Query.",
-      "Integrated a rich text editor using Quill, allowing users to easily create and format agreement templates and speeding up document creation.",
-      "Implemented TOTP-based two-factor authentication using django-mfa2, working on frontend authentication flows and improving application security.",
-      "Created a template package feature that allows users to group multiple templates into a single package for easier agreement creation.",
+      "Built core features for the Asset Protection System and Agreement Builder, focusing on dynamic agreement templates, an optimized document creation flow, and end-to-end agreement creation and signing workflows.",
+      "Integrated the Quill text editor to enable easy creation and formatting of agreements, speeding up document creation.",
+      "Created a package feature that allows users to group multiple templates into a single package for easier agreement creation.",
+      "Implemented caching and optimistic UI with TanStack Query, reducing redundant API calls and improving performance by up to 3 seconds.",
+      "Implemented TOTP-based two-factor authentication using Speakeasy by generating secure secrets, creating QR codes for setup, and validating one-time codes during login to improve application security.",
+      "Developed Node.js REST APIs and implemented cron-based background jobs to send automated pending signature emails and manage agreement signing workflow"
     ],
   },
   {
@@ -33,10 +33,12 @@ const experiences = [
   {
     company: "Infosys",
     position: "System Engineer",
-    period: "June 2021 - Dec 2022",
+    period: "Jan 2022 - Dec 2022",
     achievements: [
-      "Worked on enterprise internal applications for a CITI Bank project, focusing on UI validation and workflow consistency.",
-      "Reported and tracked UI and functional issues, contributing to a reduction in user-reported defects.",
+      "Developed and enhanced UI screens using React.js & Material UI for enterprise internal applications.",
+      "Implemented form validations and basic client-side logic to ensure accurate data entry and smoother user workflows",
+      "Fixed UI bugs and styling issues across multiple screens, improving usability and visual consistency",
+      "Collaborated with backend and QA teams to integrate APIs and verify UI functionality during testing cycles"
     ],
   },
 ]

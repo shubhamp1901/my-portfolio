@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 
 const projects = [
   {
-    title: "Learning Platform (PrimeLive)",
+    title: "PrimeLive",
     description:
       "Developed a full-scale learning and coaching platform supporting role-based access (coach/student), real-time chat, content sharing, and course management.",
     features: [
@@ -18,6 +18,19 @@ const projects = [
     ],
     techStack: ["ReactJS", "Firebase", "NodeJS", "ExpressJS", "MongoDB", "Redux Toolkit"],
     link: "https://app.primelive.ai/",
+  },
+  {
+    title: "Blog App",
+    description:
+      "A full-featured blog application built with React and Firebase, featuring create/edit/delete posts, authentication, and tag-based organization.",
+    features: [
+      "Firebase authentication and Firestore for data persistence",
+      "Create, edit, and delete blog posts with tag input and rich content",
+      "Responsive UI with Bootstrap and SASS styling, plus toast notifications and carousel components for a polished UX",
+      "Client-side routing with React Router for seamless page navigation",
+    ],
+    techStack: ["ReactJS", "Firebase", "React Bootstrap", "React Router", "SASS", "React Toastify"],
+    link: "https://react-blog-app-a5bc9.web.app/",
   },
 ]
 
